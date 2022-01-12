@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEADER -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Profile</title>
+        <link rel="stylesheet" href="assets/css/connect.css">
+    </head>
+    <!-- BODY -->
+    <body>
+        <div class="beranda">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="profil.html">About</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+                </ul>
+                <div class="logo">
+                    <h2><a href="index.html">DHANY</a></h2>
+                </div>
+                <!-- JAVASCRIPT -->
+                <div class="waktu">
+                    <p id="waktubos"></p>
+                    <script>
+                        var d = new Date();
+                        document.getElementById("waktubos").innerHTML = d;
+                    </script>                
+                </div>
+            </nav>
+        </div>
+        <center>
+        <div class="hi">
+            <h2>Please fill the form below, let's
+                <strong>connect!</strong> 
+            </h2>
+        </div>
+        <!-- FORM SOSMED -->
+        <div class="sosmed">
+            <form action="assets/php/hasil.php" method="POST">
+                <label for="nama">first name</label>
+                <input type="text" size="20px" id="fnama" name="in_fnama"><br><br>
+                <label for="nama">last name</label>
+                <input type="text" size="20px" id="lnama" name="in_lnama"><br><br>
+                <label for="normor">instagram</label>
+                <input type="text" size="20px" id="ig" name="in_ig"><br><br>
+
+                <input type="submit" value="submit" name="kirim">
+            </form>
+        </div>
+        </center>  
+    </body>
+</html>

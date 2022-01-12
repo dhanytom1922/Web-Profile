@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    background-size: cover;
+}
+/* NAVIGASI */
+nav {
+    height: 50px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin: 0px;
+    display: block;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color:red;
+}
+nav .logo a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 6px rgb(150, 0, 0);
+    padding-top: 10px;
+    padding-left: 30px;
+    float: left;
+}
+.hi h2 {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 150px;
+}
+.hi h2 strong {
+    color: rgb(150, 0, 0);
+    text-shadow: 1px 1px #605d5d1a;
+}
+/* TABLE  */
+#datadirixx {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px;
+    color: white;
+    padding: 5px;    
+}
+#datadirixx td, #datadirixx th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}  
+#datadirixx tr:nth-child(even) {
+    background-color: rgb(27, 27, 27);
+}
+#datadirixx tr:hover {
+    background-color: rgb(51, 0, 0);
+}
+#datadirixx th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #444444;
+    color: white;
+}
+.waktu{
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 25%;
+    float: left;
+}
